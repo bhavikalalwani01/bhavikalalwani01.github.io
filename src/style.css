@@ -1,0 +1,109 @@
+{ margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+
+/* Navigation Bar */
+.navbar { background-color: #2c3e50; padding: 20px 40px; position: fixed; width: 100%; top: 0; left: 0; display: flex; justify-content: space-between; align-items: center; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+.nav-brand { color: #ffffff; font-size: 24px; font-weight: bold; text-decoration: none; }
+
+.nav-menu { display: flex; list-style: none; gap: 30px; }
+
+.nav-menu a { color: #ffffff; text-decoration: none; font-weight: 500; font-size: 16px; transition: color 0.3s ease; }
+
+.nav-menu a:hover { color: #3498db; }
+
+
+/* Hero Section */ .hero { height: 100vh; background-color: #f5f6fa; display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 20px; margin-top: 60px; }
+
+.hero-content h1 { font-size: 48px; margin-bottom: 20px; color: #2c3e50; }
+
+.hero-content p { font-size: 24px; color: #7f8c8d; }
+
+
+/* About Section */
+.about { padding: 100px 20px; background-color: #ffffff; }
+
+.section-title { text-align: center; font-size: 36px; margin-bottom: 50px; color: #2c3e50; }
+
+.about-content { max-width: 800px; margin: 0 auto; }
+
+.about-text { text-align: center; }
+
+.about-text p { margin-bottom: 20px; font-size: 18px; color: #7f8c8d; }
+
+
+/* Projects Section */
+.projects { padding: 100px 20px; background-color: #f5f6fa; }
+
+.project-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 20px; }
+
+.project-card { background: #ffffff; border-radius: 10px; padding: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+
+.project-card:hover { transform: translateY(-10px); }
+
+.project-card h3 { font-size: 24px; margin-bottom: 15px; color: #2c3e50; }
+
+.project-card p { color: #7f8c8d; margin-bottom: 20px; }
+
+.project-links { display: flex; gap: 15px; }
+
+.btn { display: inline-block; padding: 10px 20px; background-color: #3498db; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease; }
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    /* ... (keep all navbar styles) ... */
+}
+
+/* Hero Section */
+.hero {
+    /* ... (keep all hero styles) ... */
+}
+
+/* About Section */
+.about {
+    /* ... (keep all about styles) ... */
+}
+
+/* Projects Section */
+.projects {
+    /* ... (keep all projects styles) ... */
+}
+
+/* 2. Then add the new CSS code exactly here */
+
+/* Contact Section */
+.contact {
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ... (all the new CSS code I provided) ... */
+
+/* 3. End with the responsive design */
+@media (max-width: 768px) {
+    /* ... (all the responsive styles) ... */
+}
+
+@media (max-width: 480px) {
+    /* ... (all the mobile styles) ... */
+}
